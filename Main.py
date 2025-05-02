@@ -4,6 +4,7 @@ import uuid
 
 st.set_page_config(page_title="Splittit", page_icon="💸")
 st.title("💸 Splittit - bypass splitwise pro")
+st.text("with this app, you can create a single entry out of multiple expenses that you paid with a descriptive report so that you can later add it in your splitwise group")
 
 # ── Session State Initialization ─────────────────────────────────────────
 if 'report_started' not in st.session_state:
