@@ -2,8 +2,8 @@ import streamlit as st
 from collections import defaultdict
 import uuid
 
-st.set_page_config(page_title="Splitter", page_icon="💸")
-st.title("💸 Splitter - bypass splitwise pro")
+st.set_page_config(page_title="Splittit", page_icon="💸")
+st.title("💸 Splittit - bypass splitwise pro")
 
 # ── Session State Initialization ─────────────────────────────────────────
 if 'report_started' not in st.session_state:
